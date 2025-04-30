@@ -27,9 +27,12 @@ export default function Login() {
     }
   };
 const GoToRegister = () =>{
-  setTimeout(() => navigate("/register"), 1000);
-  
+  setTimeout(() => navigate("/register"), 1000); 
 }
+const RegisteMatter= () =>{
+  setTimeout(() => navigate("/carreras"), 1000); 
+}
+
 
 
   return (
@@ -90,6 +93,12 @@ const GoToRegister = () =>{
           >
             Register
           </button>
+        </div>
+        <div className="" onClick={RegisteMatter}>
+          <button
+          className=" w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg transition duration-300"
+          type="button"
+          >Register Matter</button>
         </div>
       </div>
     </div>

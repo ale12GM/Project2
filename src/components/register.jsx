@@ -15,14 +15,12 @@ export default function Login() {
 
 
     return (
-<div className="bg-blue">
-    <div>
+        <div className="min-h-screen bg-blue-100 flex items-center justify-center">
+    <div className="bg-white">
         <h1 className="text-20 text-red-400">
             Registro
         </h1>
-
-
-
+        <form action=""></form>
 
     </div>
 </div>
